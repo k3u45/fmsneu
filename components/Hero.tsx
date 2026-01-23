@@ -1,4 +1,6 @@
 "use client";
+
+import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Phone } from "lucide-react";
 
@@ -11,7 +13,9 @@ export default function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <span className="text-red-600 font-bold tracking-widest uppercase text-sm">Meisterbetrieb in Recklinghausen</span>
+          <span className="text-red-600 font-bold tracking-widest uppercase text-sm">
+            Meisterbetrieb in Recklinghausen
+          </span>
           <h1 className="text-5xl md:text-7xl font-black mt-4 leading-tight">
             QUALITÄT, DIE <br /><span className="text-red-600">GLÄNZT.</span>
           </h1>
@@ -19,10 +23,16 @@ export default function Hero() {
             Ihre Experten für Sanierung, Reinigung und Winterdienst. Wir erhalten Werte und schaffen Sauberkeit – professionell & zuverlässig.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
-            <a href="#kontakt" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 font-bold flex items-center gap-2 transition-all">
+            <a 
+              href="#kontakt" 
+              className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 font-bold flex items-center gap-2 transition-all"
+            >
               Angebot anfordern <ArrowRight size={20} />
             </a>
-            <a href="tel:017670224310" className="border border-white/20 hover:bg-white/10 px-8 py-4 font-bold flex items-center gap-2 transition-all">
+            <a 
+              href="tel:017670224310" 
+              className="border border-white/20 hover:bg-white/10 px-8 py-4 font-bold flex items-center gap-2 transition-all"
+            >
               <Phone size={20} /> 0176 70224310
             </a>
           </div>

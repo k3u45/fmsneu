@@ -1,4 +1,16 @@
-import { Hammer, Snowflake, Building2, Wind, Home, Brush, Briefcase, Zap } from "lucide-react";
+"use client";
+
+import React from "react";
+import { 
+  Hammer, 
+  Snowflake, 
+  Building2, 
+  Wind, 
+  Home, 
+  Brush, 
+  Briefcase, 
+  Zap 
+} from "lucide-react";
 
 const services = [
   { title: "Sanierung", desc: "Fassaden, Dächer, Schimmelbeseitigung & Balkone.", icon: Hammer },
@@ -20,13 +32,16 @@ export default function Services() {
           <div className="h-1 w-20 bg-red-600 mx-auto mt-4" />
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {services.map((s, i) => (
-            <div key={i} className="p-8 border border-gray-100 hover:border-red-600 transition-colors group">
-              <s.icon className="text-red-600 mb-6 group-hover:scale-110 transition-transform" size={40} />
-              <h3 className="text-xl font-bold mb-3 uppercase">{s.title}</h3>
-              <p className="text-gray-600 text-sm leading-relaxed">{s.desc}</p>
-            </div>
-          ))}
+          {services.map((service, i) => {
+            const Icon = service.icon;
+            return (
+              <div key={i} className="p-8 border border-gray-100 hover:border-red-600 transition-colors group">
+                <Icon className="text-red-600 mb-6 group-hover:scale-110 transition-transform" size={40} />
+                <h3 className="text-xl font-bold mb-3 uppercase">{service.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{service.desc}</p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
