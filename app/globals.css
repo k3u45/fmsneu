@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* Damit die Sektionen sauber getrennt sind */
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply antialiased;
+}
+
+
+
+/* app/globals.css */
+@import "tailwindcss";
+
+html, body {
+  /* Stoppt das Gummiband-Scrollen komplett */
+  
+  background-color: #0a0a0a;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+/* Verhindert seitliches Wackeln auf Smartphones */
+body {
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
