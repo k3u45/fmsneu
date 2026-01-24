@@ -7,8 +7,10 @@ export default function Navbar() {
           FMS-<span className="text-red-600">SERVICE</span>
         </div>
         <div className="hidden md:flex gap-8 text-sm font-bold uppercase text-gray-300">
-          <a href="#leistungen" className="hover:text-red-600 transition-colors">Leistungen</a>
-          <a href="#kontakt" className="hover:text-red-600 transition-colors">Kontakt</a>
+          {/* Das / sorgt dafür, dass er erst zur Startseite geht und dann zum Anker */}
+          <a href="/#About" className="hover:text-red-600 transition-colors">Über uns</a>
+          <a href="/#leistungen" className="hover:text-red-600 transition-colors">Leistungen</a>
+          <a href="/#kontakt" className="hover:text-red-600 transition-colors">Kontakt</a>
         </div>
         {/* Button für Mobile oder Schnellkontakt */}
         <a href="tel:017670224310" className="md:hidden text-red-600 font-bold text-sm">
@@ -18,3 +20,4 @@ export default function Navbar() {
     </nav>
   );
 }
+  

@@ -23,8 +23,8 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4 uppercase">Rechtliches</h4>
             <ul className="text-gray-400 text-sm space-y-2">
-              <li><a href="#" className="hover:text-red-600 transition-colors">Impressum</a></li>
-              <li><a href="#" className="hover:text-red-600 transition-colors">Datenschutz</a></li>
+              <li><a href="impressum" className="hover:text-red-600 transition-colors">Impressum</a></li>
+              <li><a href="datenschutz" className="hover:text-red-600 transition-colors">Datenschutz</a></li>
             </ul>
           </div>
         </div>
