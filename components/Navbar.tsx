@@ -14,7 +14,16 @@ export default function Navbar() {
         </div>
         {/* Button für Mobile oder Schnellkontakt */}
         <a href="tel:017670224310" className="md:hidden text-red-600 font-bold text-sm">
+          Kontakt
+        </a>
+        <a href="tel:017670224310" className="md:hidden text-red-600 font-bold text-sm">
           Anrufen
+        </a>
+        <a href="#leistungen" className="md:hidden text-red-600 font-bold text-sm">
+          Leistungen
+        </a>
+         <a href="#About" className="md:hidden text-red-600 font-bold text-sm">
+          Über uns
         </a>
       </div>
     </nav>
