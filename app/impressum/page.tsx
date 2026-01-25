@@ -41,11 +41,9 @@ export default function Impressum() {
           </section>
 
           <section className="space-y-4">
-            <h2 className="text-xl font-bold text-white uppercase tracking-wider">Vertreten durch</h2>
-            <p>Keanu [Dein Nachname]</p>
-
-            <h2 className="text-xl font-bold text-white uppercase tracking-wider pt-4">Berufsbezeichnung</h2>
-            <p>Meisterbetrieb (verliehen in der Bundesrepublik Deutschland)</p>
+            
+            
+            
           </section>
         </div>
       </main>
