@@ -6,13 +6,13 @@ import Link from "next/link";
 const highlights = [
   {
     title: "Winterdienst",
-    before: "/vorhernachher/WinterDienstNacher.png",
-    after: "/vorhernachher/WinterDienstVorher.png",
+    before: "/vorhernachher/winterdienstnacher.png",
+    after: "/vorhernachher/winterdienstvorher.png",
   },
   {
     title: "Treppenreinigung",
-    after: "/vorhernachher/TreppenHausVorher.png",
-    before: "/vorhernachher/TreppenhausNacher.png",
+    after: "/vorhernachher/treppenhausvorher.png",
+    before: "/vorhernachher/treppenhausnacher.png",
   }
 ];
 
