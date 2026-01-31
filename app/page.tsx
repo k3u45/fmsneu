@@ -5,16 +5,19 @@ import About  from "@/components/About"
 import Services from "@/components/Services";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-
+import GoogleReviews from "@/components/GoogleReviews";
+import VorherNachher from "@/components/VorherNacher";
 export default function Home() {
   return (
     <main>
-      <Navbar />
+     
       <Hero />
-      <About></About>
+      <About />
       <Services />
+      <VorherNachher />
+      <GoogleReviews />
       <Contact />
-      <Footer />
+      
     </main>
   );
 }

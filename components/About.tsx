@@ -4,7 +4,7 @@ import { CheckCircle2 } from "lucide-react";
 
 export default function About() {
   return (
-    <section id="About" className="py-24 bg-[#0a0a0a] text-white">
+    <section id="About" className="py-24 bg-white text-black">
       <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* Text Bereich */}
         <div>
@@ -39,9 +39,9 @@ export default function About() {
 
         {/* Info Box / Bild Platzhalter */}
         <div className="relative">
-          <div className="border-2 border-red-600 p-8 md:p-12 relative z-10 bg-[#0f0f0f]">
+          <div className="border-2 border-red-600 p-8 md:p-12 relative z-10 bg-white">
             <h3 className="text-6xl font-black text-red-600 mb-2 italic">10+</h3>
-            <p className="text-xl font-bold uppercase tracking-widest mb-4">Jahre Erfahrung</p>
+            <p className="text-xl text-black font-bold uppercase tracking-widest mb-4">Jahre Erfahrung</p>
             <p className="text-gray-400">
               In über einem Jahrzehnt haben wir hunderte Projekte erfolgreich abgeschlossen. 
               Wir kennen die Herausforderungen im Revier und finden für jeden Kunden 

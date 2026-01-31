@@ -7,7 +7,7 @@ import { ArrowLeft } from "lucide-react";
 
 export default function Impressum() {
   return (
-    <div className="bg-[#0a0a0a] text-white min-h-screen flex flex-col">
+    <div className="bg-white text-black min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-grow container mx-auto px-6 pt-32 pb-20">
         {/* Zurück Button */}
@@ -20,19 +20,19 @@ export default function Impressum() {
         </Link>
 
         <h1 className="text-4xl md:text-5xl font-black mb-10 italic uppercase">
-          Impres<span className="text-red-600">sum</span>
+          Impres<span className="text-black">sum</span>
         </h1>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-gray-300">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-gray-600">
           <section className="space-y-4">
-            <h2 className="text-xl font-bold text-white uppercase tracking-wider">Angaben gemäß § 5 TMG</h2>
+            <h2 className="text-xl font-bold text-black uppercase tracking-wider">Angaben gemäß § 5 TMG</h2>
             <p className="leading-relaxed">
               FMS Service<br />
               Hochlarmarkstraße 11<br />
               45661 Recklinghausen
             </p>
             
-            <h2 className="text-xl font-bold text-white uppercase tracking-wider pt-4">Kontakt</h2>
+            <h2 className="text-xl font-bold text-black uppercase tracking-wider pt-4">Kontakt</h2>
             <p className="leading-relaxed">
               Telefon: 0176 70224310<br />
               E-Mail: [Deine E-Mail Adresse]<br />

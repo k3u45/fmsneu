@@ -2,6 +2,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar"; // Import hinzufügen
+import Footer from "@/components/Footer"; // Import hinzufügen
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,7 +17,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="de" className="scroll-smooth">
       <body className={`${inter.className} bg-white text-slate-900`}>
-        {children}
+        <Navbar /> {/* Erscheint oben auf jeder Seite */}
+        
+        <main>
+          {children} {/* Hier wird der Inhalt von page.tsx (Home oder Referenzen) geladen */}
+        </main>
+        
+        <Footer /> {/* Erscheint unten auf jeder Seite */}
       </body>
     </html>
   );

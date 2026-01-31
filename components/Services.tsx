@@ -50,7 +50,7 @@ export default function Services() {
         </div>
         
         {/* Kleiner Hinweis für Mobile Nutzer */}
-        <div className="text-center mt-4 md:hidden text-gray-400 text-xs animate-pulse">
+        <div className="text-center mt-4 md:hidden text-gray-400 text-xs">
           ← Wischen für mehr Leistungen →
         </div>
       </div>
