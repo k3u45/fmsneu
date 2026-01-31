@@ -95,7 +95,7 @@ export default function ReferenzenPage() {
               Haben Sie eine ähnliche Herausforderung? Lassen Sie uns gemeinsam für Sauberkeit und Werterhalt sorgen.
             </p>
             
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
               <Link 
                 href="/#kontakt" 
                 className="w-full sm:w-auto bg-red-600 hover:bg-red-700 text-white px-8 py-4 font-bold uppercase italic transition-all flex items-center justify-center gap-2 group"
